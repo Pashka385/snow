@@ -39,13 +39,21 @@ header{
     color: #fff;
     text-align: center;
 }
-.text h1{
+.text h1 {
     font-size:4em ;
     text-shadow: 5px 5px 10px #111 ;
     letter-spacing: 7px;
     font-family: 'Anton', sans-serif;
     text-align: center;
 }
+.text h2{
+    font-size:1.7em ;
+    text-shadow: 5px 5px 10px #111 ;
+    letter-spacing: 3px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+
 @keyframes snowfall{
     100%{
         background-position: 70em 70em; 
