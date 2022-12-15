@@ -70,3 +70,9 @@ header{
     height: 150px;
     border-radius: 10px;
 }
+
+@media screen and (min-width:375px) and(max-width:600px) {
+    .merry{font-size: 1em;}
+    p{font-size: 3em;}
+    .qr{width: 100px;height: 100px;}
+}
