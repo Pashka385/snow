@@ -39,6 +39,7 @@ header{
 .text{
     color: #fff;
     text-align: center;
+    padding: 20px;
 }
 .text h1 {
     font-size:4em ;
@@ -71,8 +72,8 @@ header{
     border-radius: 10px;
 }
 
-@media screen and (min-width:375px) and (max-width:600px){
-    h1{font-size: 16px;}   
-    p{font-size: 15px;}
+@media screen and (max-width:600px){
+    .text h1{font-size: 3em;}   
+    .text p{font-size: 1.2em;}
     .qr{width: 120px;height: 120px;}
 }
